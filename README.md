@@ -23,11 +23,11 @@ Move the file to the Nautilus or Nemo scripts directory by running the following
     or
     mv 'Send with Croc.py' ~/.local/share/nemo/scripts/
     
-Restart Nautilus.
+Restart Nautilus or Nemo.
 
 Usage
 
-Select one or more files in Nautilus.
+Select one or more files in Nautilus or Nemo.
     Right-click on the selected files and go to "Scripts".
     Click on "Send with Croc.py".
     A new terminal window will appear with the Croc command to send the selected files.
@@ -40,3 +40,38 @@ if you encouter any problem you can contact me at archesys@gmail.com, I did this
 
 Eric ENDELIN
 
+French Translation
+
+Un script python pour Nautilus ou Nemo pour pouvoir sélectionner un ou plusieurs fichiers ou dossier et l'envoyer avec croc (github.com/schollz/croc)
+
+Nautilus 'Envoyer avec Croc.py'
+
+Ce script permet d'envoyer des fichiers sélectionnés avec Croc via Nautilus ou Nemo sur Manjaro ou Ubuntu.
+
+Conditions préalables
+
+Assurez-vous que Croc (testé avec la version v9.6.4-1fce28e) et python (testé sur python 3) sont installés sur votre système.
+
+Installation
+
+Téléchargez le fichier "Envoyer avec Croc.py" depuis le github.
+
+Ouvrez le fichier avec un éditeur de texte et modifiez la variable CROC_PATH avec le chemin de votre exécutable Croc. La valeur par défaut est /bin/croc pour Manjaro et /usr/local/bin/croc pour Ubuntu.
+Vous pouvez aussi remplacer NAUTILUS par NEMO (restez en MAJ..) pour utiliser ce script sous nemo.
+
+Enregistrez le fichier et fermez l'éditeur de texte.
+
+Rendez le fichier exécutable en exécutant la commande suivante dans le terminal : chmod +x 'Send with Croc.py' Déplacez le fichier dans le répertoire des scripts Nautilus ou Nemo en exécutant la commande suivante dans le terminal :
+mv 'Envoyer avec Croc.py' ~/.local/share/nautilus/scripts/ ou mv 'Envoyer avec Croc.py' ~/.local/share/nemo/scripts/
+
+Redémarrez Nautilus ou Nemo.
+
+Usage
+
+Sélectionnez un ou plusieurs fichiers dans Nautilus ou Nemo. Faites un clic droit sur les fichiers sélectionnés et allez dans "Scripts". Cliquez sur "Envoyer avec Croc.py". Une nouvelle fenêtre de terminal apparaîtra avec la commande Croc pour envoyer les fichiers sélectionnés. Suivez les instructions dans la fenêtre du terminal pour terminer le transfert de fichiers.
+
+Remarque : La fenêtre du terminal restera ouverte jusqu'à ce que le transfert de fichier soit terminé.
+
+J'ai aussi mis une version anglaise du script 'Send with Croc.py', c'est le même programme avec un titre en Anglais et des commentaires en Anglais.. si vous rencontrez un problème vous pouvez me contacter à archesys@gmail.com, j'ai fait ce programme avec l'aide de chatGPT et j'espère que vous l'apprécierez !
+
+Eric ENDELIN
