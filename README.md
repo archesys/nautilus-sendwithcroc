@@ -6,7 +6,10 @@ Nautilus 'Send with Croc.py'
 This script allows you to send selected files with Croc via Nautilus or Nemo on Manjaro or Ubuntu.
 Prerequisites
 
-Make sure you have Croc (tested with version v9.6.4-1fce28e) and python (tested on python 3) installed on your system by following the installation instructions.
+Make sure you have Croc (tested with version v9.6.4-1fce28e) and python (tested on python 3) installed on your system.
+
+The installation script is not ready yet, it can just give the informations about the dependencies for the moment..So just follow the instructions.
+
 Installation
 
 Download the 'Send with Croc.py' file from the repository.
@@ -51,6 +54,9 @@ Ce script permet d'envoyer des fichiers sélectionnés avec Croc via Nautilus ou
 Conditions préalables
 
 Assurez-vous que Croc (testé avec la version v9.6.4-1fce28e) et python (testé sur python 3) sont installés sur votre système.
+
+Le script d'installation n'est pas encore prêt, il peut juste donner les informations sur les dépendances pour le moment..Donc suivez simplement les instructions.
+
 
 Installation
 
